@@ -28,7 +28,7 @@
 
 15.tar: Bu komanda, faylları birləşdirib sıxmaq və ya açmaq üçün istifadə olunur. Məsələn, "tar -czvf arxiv.tar.gz qovluq/" yazılsa, qovluq/ qovluğunu sıxılmış bir arxiv.tar.gz faylı olaraq yaradacaq.
 
-16.grep: Bu komanda, sətirlərdə axtarış etmək üçün istifadə olunur. Məsələn, "grep söz fayl.txt" yazılsa, fayl.txt faylının içində "söz" sözü olan bütün sətirlər göstəriləcək.
+16.cmatrix: Bu komanda, teriminalda əyləncəli matrix effective yaradır amma bu efekti "sudo apt-get install cmatrix" yazaraq yükləmək lazımdır.
 
 17.find: Bu komanda, fayl və qovluqları axtarmaq üçün istifadə olunur. Məsələn, "find / -name fayl.txt" yazılsa, / qovluğundan başlayaraq fayl.txt faylını axtaracaq.
 
