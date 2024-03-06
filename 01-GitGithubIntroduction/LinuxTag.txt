@@ -1,0 +1,39 @@
+1.ls: Bu komanda, ən çox istifadə olunan biridir və əməliyyat sistemindəki fayl və qovluqları göstərir. İstifadəçi kök qovluğunda "ls" yazarsa, bu qovluqda olan bütün faylları göstərəcəkdir.
+
+2.cd: Bu komanda, istifadəçini fərqli qovluqlara keçid etmək üçün istifadə olunur. "cd Desktop" yazmaq istifadəçini Desktop qovluğuna aparacaqdır.
+
+3.pwd: Bu komanda, işlənən qovluğun tam yolu (absolute path) göstərir. Yəni, həmin anki qovluğun tapşırılması (current) yolu.
+
+4.mkdir: Bu komanda, yeni qovluq yaratmaq üçün istifadə olunur. Məsələn, "mkdir yeni-qovluq" yazılsa, bu yeni bir qovluq yaradacaqdır.
+
+5.touch: Bu komanda, yeni fayl yaratmaq üçün istifadə olunur. "touch yeni-fayl.txt" yazdıqda, yeni bir txt faylı yaradılacaq.
+
+6.cp: Bu komanda, faylları kopyalamaq üçün istifadə olunur. Məsələn, "cp fayl1.txt fayl2.txt" yazılsa, fayl1.txt faylı fayl2.txt adlı fayla kopyalanacaq.
+
+7.mv: Bu komanda, faylları və ya qovluqları köçürmək və ya yenidən adlandırmaq üçün istifadə olunur. Məsələn, "mv fayl1.txt yeni-qovluq/" yazılsa, fayl1.txt faylı yeni-qovluq qovluğuna köçürüləcək.
+
+8.rm: Bu komanda, faylları və ya qovluqları silmək üçün istifadə olunur. "rm fayl.txt" yazılsa, fayl.txt faylı silinəcək.
+
+9.cat: Bu komanda, faylın içərisindəkiləri ekrana çap etmək üçün istifadə olunur. Məsələn, "cat fayl.txt" yazılsa, fayl.txt faylının içindəkilər göstəriləcək.
+
+10.grep: Bu komanda, faylın içində müvafiq məlumatları axtarmaq üçün istifadə olunur. Məsələn, "grep söz fayl.txt" yazılsa, fayl.txt faylının içində "söz" sözü olan bütün sətirlər göstəriləcək.
+
+11.chmod: Bu komanda, fayl və qovluqların icazələrini dəyişmək üçün istifadə olunur. Məsələn, "chmod 777 fayl.txt" yazılsa, fayl.txt faylının bütün icazələri (oxumaq, yazmaq, icazə vermək) veriləcək.
+
+12.chown: Bu komanda, fayl və qovluqların sahibini dəyişmək üçün istifadə olunur. Məsələn, "chown istifadəçi_adı fayl.txt" yazılsa, fayl.txt faylının sahibi istifadəçi_adı olacaq.
+
+13.ps: Bu komanda, işlənən prosesləri göstərmək üçün istifadə olunur. Məsələn, "ps -aux" yazılsa, bütün işlənən proseslər göstəriləcək.
+
+14.kill: Bu komanda, prosesi sonlandırmaq üçün istifadə olunur. Məsələn, "kill PID" yazılsa, PID-ni göstərilən proses sonlandırılacaq.
+
+15.tar: Bu komanda, faylları birləşdirib sıxmaq və ya açmaq üçün istifadə olunur. Məsələn, "tar -czvf arxiv.tar.gz qovluq/" yazılsa, qovluq/ qovluğunu sıxılmış bir arxiv.tar.gz faylı olaraq yaradacaq.
+
+16.grep: Bu komanda, sətirlərdə axtarış etmək üçün istifadə olunur. Məsələn, "grep söz fayl.txt" yazılsa, fayl.txt faylının içində "söz" sözü olan bütün sətirlər göstəriləcək.
+
+17.find: Bu komanda, fayl və qovluqları axtarmaq üçün istifadə olunur. Məsələn, "find / -name fayl.txt" yazılsa, / qovluğundan başlayaraq fayl.txt faylını axtaracaq.
+
+18.top: Bu komanda, işlənən prosesləri göstərmək və sistemə aid məlumatları göstərmək üçün istifadə olunur. Həmçinin prosesləri nizamlaya və dayandıra bilərsiniz.
+
+19.wget: Bu komanda, internetdən fayl yükləmək üçün istifadə olunur. Məsələn, "wget
+
+20.man: Başqa komandalar üçün təlimat səhifələrini göstərir.
