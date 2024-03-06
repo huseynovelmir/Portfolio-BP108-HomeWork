@@ -1,95 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body>
-    <form method="post">
-      <label for="name">Name:</label>
-      <input
-        type="text"
-        name="name"
-        maxlength="5"
-        placeholder="Your name"
-        required
-      /><br />
+</head>
 
-      <label for="number">Fav number:</label>
-      <input
-        type="number"
-        name="number"
-        value="6"
-        min="6"
-        max="30"
-        placeholder="Sellect a number between 6 and 30"
-        required
-      /><br />
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+            </tr>
+            </tr>
+        </thead>
+        <tbody>
 
-      <label for="email">Email:</label>
-      <input
-        type="email"
-        name="email"
-        placeholder="Write your mail "
-        required
-      /><br />
 
-      <label for="password">Password:</label>
-      <input
-        type="password"
-        name="password"
-        placeholder="Write your password"
-        required
-      /><br />
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 a.m.</td>
+                <td rowspan="2">5:00 p.m.</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity: DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Tuesday</td>
+                <td>8:00 a.m.</td>
+                <td>11:00 a.m.</td>
+                <td rowspan="2" align="center"
+                    style="position: absolute;padding-top:7px;padding-bottom: 7px;padding-right:148px;">XPath</td>
+                    <!--! Allah haqqı css dən başqa yol tapanmadım 🥲 -->
 
-      <label>Gender:</label>
-      <input type="radio" name="gender" value="male" checked />
-      <label for="male">Male</label>
-      <input type="radio" name="gender" value="female" />
-      <label for="female">Female</label><br />
 
-      <select id="country" name="country" class="form-control">
-        <option value="USA">USA</option>
-        <option value="Azerbaijan">Azerbaijan</option>
-        <option value="Monaco">Monaco</option>
-        <option value="Italy">Italy</option>
-      </select>
-      <br />
 
-      <label for="message">Message:</label><br />
-      <textarea
-        name="message"
-        placeholder="Enter text here"
-        required
-        rows="10"
-        cols="50"
-      ></textarea>
-      <br />
+            </tr>
+            <tr>
+                <td rowspan="2">11:00 a.m.</td>
+                <td rowspan="2">2:00 p.m.</td>
+            </tr>
+            <tr>
+                <td style="position: absolute;padding-top: 7px;padding-bottom: 7px;padding-right:54px;margin-top: 10px;"
+                    align="center"> 
+                    <!--! Allah haqqı css dən başqa yol tapanmadım  🧐-->
+                    XSL transformations</td>
+            </tr>
+            <tr>
+                <td>2:00 p.m.</td>
+                <td>5:00 p.m.</td>
 
-      <label for="subscribe">Subscribe to newsletter:</label>
-      <input type="checkbox" name="subscribe" required /><br />
+            </tr>
+            <tr>
+                <td>Wednsday</td>
+                <td>8:00 a.m.</td>
+                <td>12:00 p.m.</td>
+                <td>XSL Formmating Objects</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
 
-      <label for="file">Upload file:</label>
-      <input type="file" name="file" multiple required />
-      <br />
-      <label for="birthday">Birthday:</label>
-      <input type="date" id="birthday" name="birthday" required />
-      <br />
-      <label for="color">Favorite Color:</label>
-      <input type="color" name="color" value="#1e90ff" required />
-      <br />
-      <label for="url">Personal Website:</label>
-      <input
-        type="url"
-        name="url"
-        placeholder="your website url"
-        required
-      /><br />
-
-      <br />
-      <input type="submit" value="Submit" />
-      <input type="reset" value="Reset" />
-    </form>
-  </body>
 </html>
