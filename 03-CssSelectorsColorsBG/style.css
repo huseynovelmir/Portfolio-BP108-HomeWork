@@ -76,3 +76,101 @@ input[type="text"] {
 .paragraphs p::first-line {
   color: rgb(255, 0, 123);
 }
+
+/*! 12) Bütün p taglərinin ilk hərfinin ölçüsünü 20px elədim  */
+p::first-letter {
+  font-size: 20px;
+}
+/*! 13) Targeti self olan a taginin rəngin dəyişdim. */
+
+a[target="_self"] {
+  color: rgb(79, 76, 45);
+}
+ul {
+  margin-left: 20px;
+}
+/*! 14) Ul içindəki lilərdən son child elementi seçdim. rəngin dəyişdim*/
+
+ul > li:last-child {
+  color: rgb(83, 67, 231);
+}
+
+.hoverDiv {
+  width: 100%;
+  height: 400px;
+  background-color: darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hoverDiv .row {
+  width: 0%;
+  height: 200px;
+  background-color: chartreuse;
+  transition: 0.8s;
+  z-index: 9999;
+  border-radius: 20px;
+}
+/*! 15) hoverDiv claslı divimə hover olanda içindəki elementin ölçüsünü dəyişirəm. */
+.hoverDiv:hover .row {
+  width: 80%;
+}
+
+button {
+  padding: 20px 40px;
+  background-color: white;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid black;
+}
+
+/*! 16) aktiv olan buttonun bəzi xüsusuoyyətlərini dəyişdim */
+button:active {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border: 1px solid dodgerblue;
+}
+
+/*! 17) İÇi boş div elementlərini seçir.  */
+div:empty {
+  width: 200px;
+  height: 300px;
+  background-color: darkblue;
+}
+
+/*! 18) divin içindəki ilk elementi seçdim */
+div span:first-child {
+  color: deeppink;
+}
+/*! 19) Spanlar içərisində class name not olmayanı seçir.  */
+span:not(.hello) {
+  color: goldenrod;
+}
+/*! 20) p tagı içindəki son sətri seçir */
+
+p:last-of-type {
+  font-size: 10px;
+}
+/*! 21) P taginin əvvəlini seçirəm nəsə əlavə etmək və ya başqa manipulasyalar üçün */
+p::before {
+  content: "Read this -";
+}
+/*! 22) Yuxardakı ilə eyni sadəcə əvvələ yox axıra */
+
+p::after {
+  content: " - Remember this";
+}
+/*! 23) ul və ya ol listlərinin markerinin seçirəm */
+::marker {
+  color: red;
+}
+/*! 24) Səhifənin root elementini seçib onu manipulasiya etdim */
+:root {
+  background: #cd6767;
+}
+/*! 25) Dili çincə olan p tagini seçib onu manipulasiya etdim */
+p:lang(china) {
+  color: yellow;
+  font-size: 50px;
+}
