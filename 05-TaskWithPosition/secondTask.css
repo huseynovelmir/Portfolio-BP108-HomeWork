@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: rgb(231, 233, 236);
+}
+.container {
+  width: 40%;
+  padding: 20px 20px 100px 20px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.container .img {
+  width: 100%;
+  height: 100%;
+  background: url(./images/labrador.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+.container .img div {
+  padding: 5px;
+  background-color: white;
+  position: absolute;
+  bottom: 30px;
+  padding: 5px 5px 5px 20px;
+}
+.container span {
+  color: #b1afab;
+}
+
+.container p {
+  color: #000000;
+  margin-top: 10px;
+}
