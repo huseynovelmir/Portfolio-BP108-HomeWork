@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(36, 0, 0, 1) 0%,
+    rgba(219, 166, 53, 1) 0%,
+    rgba(246, 93, 60, 1) 100%
+  );
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  padding: 40px;
+}
+.container {
+  width: 85%;
+  height: 90vh;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.container .box {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: linear-gradient(
+    322deg,
+    rgba(219, 166, 53, 1) 0%,
+    rgba(246, 93, 60, 1) 100%
+  );
+  border-radius: 20px;
+  left: -200px;
+  box-shadow: rgba(246, 93, 60, 1) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.container .textarea {
+  position: absolute;
+  left: 450px;
+  padding: 50px;
+}
+.textarea p {
+  font-size: 20px;
+  color: rgb(193, 195, 196);
+  margin-bottom: 20px;
+}
+.textarea h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+button {
+  padding: 15px 40px;
+  background: linear-gradient(
+    322deg,
+    rgba(219, 166, 53, 1) 0%,
+    rgba(246, 93, 60, 1) 100%
+  );
+  border: none;
+  border-radius: 30px;
+  color: white;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 99999999;
+  position: absolute;
+  right: 10px;
+  height: 100px;
+}
+.buttons .dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(143, 146, 149);
+}
+.buttons .line {
+  width: 15px;
+  height: 30px;
+  border-radius: 20px;
+  background: linear-gradient(
+    322deg,
+    rgba(219, 166, 53, 1) 0%,
+    rgba(246, 93, 60, 1) 100%
+  );
+}
