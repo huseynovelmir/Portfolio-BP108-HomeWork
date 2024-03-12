@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+  position: fixed;
+  z-index: 9999;
+}
+
+header a {
+  text-decoration: none;
+  color: #ffffff80;
+  font-size: 1.25rem;
+  font-weight: 700;
+  transition: 0.5s;
+}
+header a:hover {
+  color: white;
+}
+header ul {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+header ul li a {
+  font-size: 15px;
+  font-weight: 400;
+  transition: 0.5s;
+}
+header ul li:hover a {
+  color: white;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: url(./images/bg-masthead.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.605) 0px -50px 36px -28px inset;
+}
+.main .bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.319);
+}
+.main h1 {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 6.5rem;
+  line-height: 6.5rem;
+  letter-spacing: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  z-index: 99999;
+}
+.main h2 {
+  margin-top: 20px;
+  color: #ffffff80;
+  z-index: 99999;
+  font-weight: 200;
+}
+.main .btn {
+  padding: 1.25rem 2rem;
+  z-index: 999999999999999999;
+  background-color: #64a19d;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.info-area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+    to bottom,
+    #000 0%,
+    rgba(0, 0, 0, 0.9) 75%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  padding: 200px 100px 0px;
+}
+.info-area h2 {
+  margin-top: 1.5rem !important;
+  color: white;
+}
+.info-area p {
+  text-align: center;
+  color: #858585;
+  margin-top: 1.5rem;
+}
+.info-area a {
+  color: #64a19d;
+}
+.info-area img {
+  width: 100%;
+  margin-top: 60px;
+}
+.introdaction {
+  width: 100%;
+  padding: 100px 150px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.introdaction img {
+  width: 70%;
+}
+.introdaction .text {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.introdaction .text h4 {
+  color: black;
+  font-weight: 300;
+  font-size: 16px;
+}
+.introdaction .text p {
+  color: #858585;
+}
+.containers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px;
+}
+.containers .row {
+  width: 50%;
+  height: 460px !important;
+}
+.containers .text {
+  height: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.containers .text h4 {
+  font-size: 25px;
+}
+.containers .text p {
+  margin-inline: 80px;
+  margin-top: 20px;
+  color: #858585;
+}
+.signUp {
+  width: 100%;
+  /* height: 100vh; */
+  background: url(./images/bg-signup.jpg);
+  box-shadow: rgba(0, 0, 0, 655) 0px -500px 3000px -28px inset;
+  background-size: cover;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.signUp i {
+  font-size: 40px;
+  color: white;
+}
+.signUp h2 {
+  color: white;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+form {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+form input {
+  width: 75%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+form button {
+  width: 20%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #64a19d;
+  border: none;
+  color: white;
+}
+.addressMail {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 200px;
+}
+.addressMail .row {
+  width: 30%;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  border-bottom: 5px solid #64a19d;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.addressMail .row i {
+  color: #64a19d;
+  font-size: 20px;
+}
+.addressMail .row h4 {
+  margin-top: 10px;
+}
+.addressMail .row .line {
+  width: 10%;
+  height: 3px;
+  background-color: #64a19d;
+  margin-top: 20px;
+}
+.addressMail .row p {
+  margin-top: 20px;
+  color: #858585;
+}
+.addressMail .row a {
+  color: #64a19d;
+  margin-top: 20px;
+}
+.links {
+  width: 200px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.links .link {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #343333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links .link i {
+  font-size: 20px;
+  color: #787474;
+  transition: 0.6s;
+}
+.links .link:hover i {
+  color: white;
+}
+.signUp .foot {
+  color: #343333;
+  margin-top: 50px;
+}
