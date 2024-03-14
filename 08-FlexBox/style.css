@@ -157,3 +157,165 @@ body {
   height: 300px;
   align-items: flex-end;
 }
+
+/*! container 13 container 13 container 13 container 13 container 13 container 13 */
+
+.container-13 {
+  height: 300px;
+}
+.container-13 .box {
+  height: 100%;
+}
+
+.container-13 .box-3 {
+  height: 40px;
+}
+
+/*! container 14 container 14 container 14 container 14 container 14 container 14 */
+
+.container-14 {
+  height: 300px;
+  align-items: center;
+}
+.container-14 .box {
+  height: 100%;
+}
+
+.container-14 .box-3 {
+  height: 40px;
+}
+
+/*! container 15 container 15 container 15 container 15 container 15 container 15 */
+
+.container-15 {
+  height: 300px;
+  align-items: flex-end;
+}
+.container-15 .box {
+  height: 100%;
+}
+
+.container-15 .box-3 {
+  height: 40px;
+}
+
+/*! container 16 container 16 container 16 container 16 container 16 container 16 */
+
+.container-16 {
+  height: 300px;
+  align-items: center;
+}
+.container-16 .box {
+  height: 40px;
+}
+.container-16 .box-3 {
+  height: 100%;
+}
+
+/*! container 17 container 17 container 17 container 17 container 17 container 17 */
+
+.container-17 {
+  height: 300px;
+}
+.container-17 .box {
+  height: 100%;
+}
+.container-17 .box-3 {
+  height: 40px;
+  margin-top: 20px;
+}
+.container-17 .box-4 {
+  height: 70px;
+  font-size: 30px;
+}
+.container-17 .box-5 {
+  height: 30px;
+  margin-top: 30px;
+}
+
+/*! container 18 container 18 container 18 container 18 container 18 container 18 */
+
+.container-18 {
+  height: 300px;
+}
+.container-18 .box {
+  height: 100%;
+}
+
+/*! container 19 container 19 container 19 container 19 container 19 container 19 */
+
+.container-19 {
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.container-19 .box {
+  width: 33.3%;
+}
+
+/*! container 20 container 20 container 20 container 20 container 20 container 20 */
+
+.container-20 {
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.container-20 .box {
+  width: 33.3%;
+}
+
+/*! container 21 container 21 container 21 container 21 container 21 container 21 */
+
+.container-21 {
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.container-21 .box {
+  width: 33.3%;
+}
+
+/*! container 22 container 22 container 22 container 22 container 22 container 22 */
+
+.container-22 {
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.container-22 .box {
+  width: 33.3%;
+}
+
+/*! container 23 container 23 container 23 container 23 container 23 container 23 */
+
+.container-23 {
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.container-23 .box {
+  width: 33.3%;
+}
+
+/*! container 24 container 24 container 24 container 24 container 24 container 24 */
+
+.container-24 {
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+.container-24 .box {
+  width: 33.3%;
+}
+
+/*! container 25 container 25 container 25 container 25 container 25 container 25 */
+
+.container-25 {
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.container-25 .box {
+  width: 33.3%;
+  height: 25%;
+}
