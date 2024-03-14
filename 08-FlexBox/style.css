@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  max-width: 1440px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  width: 30%;
+  background-color: black;
+  border: 1px solid red;
+  display: flex;
+  margin-top: 30px;
+}
+
+.box {
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.box-1 {
+  background-color: deeppink;
+}
+.box-2 {
+  background-color: purple;
+}
+.box-3 {
+  background-color: blueviolet;
+}
+.box-4 {
+  background-color: dodgerblue;
+}
+.box-5 {
+  background-color: cyan;
+}
+.box-6 {
+  background-color: green;
+}
+.box-7 {
+  background-color: greenyellow;
+}
+.box-8 {
+  background-color: yellow;
+}
+.box-9 {
+  background-color: chocolate;
+}
+.box-10 {
+  background-color: orangered;
+}
+
+/*! container 2 container 2 container 2 container 2 container 2 container 2 */
+
+.container-2 {
+  justify-content: center;
+}
+
+/*! container 3 container 3 container 3 container 3 container 3 container 3 */
+
+.container-3 {
+  justify-content: flex-end;
+}
+
+/*! container 4 container 4 container 4 container 4 container 4 container 4 */
+
+.container-4 {
+  justify-content: space-around;
+}
+
+/*! container 5 container 5 container 5 container 5 container 5 container 5 */
+
+.container-5 {
+  justify-content: space-between;
+}
+
+/*! container 6 container 6 container 6 container 6 container 6 container 6 */
+
+.container-6 {
+  justify-content: space-evenly;
+}
