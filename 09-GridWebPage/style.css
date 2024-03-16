@@ -3,3 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  font-weight: 300;
+  text-size-adjust: 100%;
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+}
+header {
+  width: 100%;
+  padding: 20px 105px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    width: 220px;
+  }
+  ul {
+    width: 57%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      list-style-type: none;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+  ul li:nth-child(8) {
+    margin-left: 20px;
+  }
+}
