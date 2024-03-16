@@ -43,10 +43,12 @@ header {
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1300px;
+  text-align: center;
 }
 .limitWithoutFlex {
   margin: 0 auto;
   max-width: 1300px;
+  text-align: center;
 }
 main {
   width: 100%;
@@ -233,5 +235,85 @@ main {
       background-color: #0072ef;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
+  }
+}
+.memberships {
+  width: 100%;
+  background-color: #3498db;
+  padding: 100px;
+  h2 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  p {
+    color: white;
+  }
+}
+.plans {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  .plan {
+    width: 32%;
+    padding: 40px;
+    h4 {
+      color: #0072ef;
+      margin-bottom: 10px;
+    }
+    p {
+      font-weight: 700;
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
+    h2 {
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style-type: none;
+      li {
+        margin-bottom: 10px;
+        text-align: start;
+        color: white;
+        i {
+          color: dodgerblue;
+          margin-right: 10px;
+          padding: 0 6px 0 0;
+        }
+      }
+    }
+    button {
+      padding: 15px 30px;
+      background-color: #0072ef;
+      color: white;
+      font-size: 20px;
+      font-weight: 700;
+      border: none;
+      border-radius: 5px;
+      margin-top: 40px;
+    }
+  }
+  .single-plan {
+    background-color: #2c3d50;
+    p {
+      color: #3498db;
+    }
+  }
+  .monthly-plan {
+    background-color: white;
+    h2 {
+      color: #2c3d50;
+    }
+    p {
+      color: black;
+    }
+    li {
+      color: #000 !important;
+    }
+  }
+  .yearly-plan {
+    background-color: #1e1e1e;
   }
 }
