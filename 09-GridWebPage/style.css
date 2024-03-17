@@ -41,14 +41,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
   max-width: 1300px;
-  text-align: center;
+  /* text-align: center; */
 }
 .limitWithoutFlex {
   margin: 0 auto;
   max-width: 1300px;
-  text-align: center;
+  /* text-align: center; */
 }
 main {
   width: 100%;
@@ -245,9 +246,11 @@ main {
     color: white;
     font-size: 36px;
     font-weight: 700;
+    text-align: center;
   }
   p {
     color: white;
+    text-align: center;
   }
 }
 .plans {
@@ -315,5 +318,216 @@ main {
   }
   .yearly-plan {
     background-color: #1e1e1e;
+  }
+}
+.webdevguide {
+  padding: 100px;
+  background-color: #143f7d;
+
+  img {
+    width: 450px;
+  }
+  .textarea {
+    width: 44%;
+    color: white;
+    h4,
+    h2 {
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+    h4 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 36px;
+    }
+    p {
+      margin-bottom: 16px;
+    }
+    button {
+      background-color: black;
+      color: white;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.5;
+      margin: 8px 8px 0 0;
+      padding: 9.5px 30px;
+      letter-spacing: 0.25px;
+      border-radius: 4px;
+      border: 1px solid black;
+    }
+  }
+}
+.newcourse {
+  padding: 100px;
+  background-color: #f9f9f9;
+  img {
+    width: 350px;
+  }
+  .textarea {
+    width: 600px;
+    padding: 30px;
+    background-color: white;
+    h5,
+    h3 {
+      font-weight: 700;
+      line-height: 1.2;
+      color: #2c3e50;
+      margin-bottom: 0.5rem;
+    }
+    h5 {
+      font-size: 18px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+
+    button {
+      background-color: dodgerblue;
+      color: white;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.5;
+      margin: 8px 8px 0 0;
+      padding: 9.5px 30px;
+      letter-spacing: 0.25px;
+      border-radius: 4px;
+      border: 1px solid dodgerblue;
+    }
+  }
+}
+.whoisbrad {
+  width: 100%;
+  padding: 100px;
+  background-color: black;
+  .limitWithFlex {
+    max-width: 1440px;
+    flex-direction: column;
+  }
+  h2 {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    span {
+      color: dodgerblue;
+    }
+  }
+  img {
+    width: 550px;
+  }
+  .aboutbrad {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .textarea {
+      width: 50%;
+      padding: 30px;
+      background-color: black;
+      border: 1px solid #333333;
+      border-radius: 5px;
+
+      p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: white;
+      }
+    }
+  }
+}
+.viewchannel {
+  padding: 100px;
+  width: 100%;
+  background: url(./images/blue-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  img {
+    width: 550px;
+  }
+  .textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 50%;
+    h2 {
+      font-size: 36px;
+      padding-bottom: 8px;
+      text-align: center;
+    }
+    p {
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    button {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.5;
+      margin: 8px 8px 0 0;
+      padding: 9.5px 30px;
+      letter-spacing: 0.25px;
+      color: #ffffff;
+      border: 2px solid black;
+      border-radius: 4px;
+      background-color: black;
+    }
+  }
+}
+.ytcourses {
+  width: 100%;
+  padding: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  .cards {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 50px;
+    img {
+      width: 300px;
+    }
+  }
+  .textarea {
+    width: 100%;
+    margin: 0 auto;
+    grid-column: 2/3;
+  }
+  h2 {
+    margin-bottom: 8px;
+    font-size: 36px;
+  }
+  p {
+    margin-bottom: 16px;
+    a {
+      text-decoration: none;
+      color: dodgerblue;
+    }
+  }
+}
+footer {
+  padding: 20px 100px;
+  background-color: #161e2a;
+
+  img {
+    width: 220px;
+  }
+  p {
+    color: white;
+  }
+  .icons {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+      color: white;
+    }
   }
 }
