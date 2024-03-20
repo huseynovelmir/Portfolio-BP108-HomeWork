@@ -20,6 +20,7 @@ body {
 }
 header {
   width: 100%;
+  //! tophead is here , top head is here
   .topHeader {
     width: 100%;
     padding: 12px 0px;
@@ -51,6 +52,54 @@ header {
         color: white;
         font-size: 14px;
         font-weight: 500;
+      }
+    }
+  }
+  //! center head is here center head is here center head is here
+  .centerHeader {
+    width: 100%;
+    padding: 28px 2%;
+    .container {
+      h1 {
+        font-size: 40px;
+      }
+      input[type="text"] {
+        width: 500px;
+        background-image: url("../images/search.svg");
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 46px 20px;
+        padding: 12px 36px 12px 12px;
+        background-color: #f7f9fc;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        font-size: 16px;
+        line-height: 19.2px;
+        margin-left: 90px;
+      }
+      ::placeholder {
+        color: #aaaaaa;
+      }
+      .buttons {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        button {
+          display: flex;
+          align-items: center;
+          background: none;
+          border: none;
+          cursor: pointer;
+          p {
+            margin-left: 7px;
+            color: #2e2e2e;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16.8px;
+          }
+        }
       }
     }
   }
