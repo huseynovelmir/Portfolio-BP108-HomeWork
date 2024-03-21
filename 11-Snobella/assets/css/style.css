@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  max-width: 1128px;
+  max-width: 1178px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -28,12 +28,17 @@ header .topHeader {
   width: 100%;
   padding: 12px 0px;
   background-color: #007878;
+  padding-inline: 2%;
 }
 header .topHeader .top {
   display: flex;
   align-items: center;
   gap: 10px;
   color: white;
+}
+header .topHeader .top li {
+  display: flex;
+  align-items: center;
 }
 header .topHeader .right {
   gap: 0px;
@@ -54,14 +59,19 @@ header .topHeader .right a {
   font-weight: 500;
 }
 
-@media (max-width: 1170px) {
-  .container {
-    padding-inline: 5%;
+@media (max-width: 992px) {
+  header .topHeader .container .top {
+    gap: 2px;
   }
-}
-@media (max-width: 575px) {
-  .container {
-    padding-inline: 5%;
-    font-size: 12px;
+  header .topHeader .container .top img {
+    width: 15px;
+    height: 15px;
+  }
+  header .topHeader .container .top p,
+  header .topHeader .container .top li a {
+    font-size: 10px;
+  }
+  header .topHeader .container .top li {
+    padding: 0px 3px;
   }
 }/*# sourceMappingURL=style.css.map */
