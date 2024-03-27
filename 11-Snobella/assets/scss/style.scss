@@ -64,7 +64,7 @@ header {
         font-size: 40px;
       }
       input[type="text"] {
-        width: 500px;
+        width: 45%;
         background-image: url("../images/search.svg");
         background-repeat: no-repeat;
         background-position: right center;
@@ -76,7 +76,7 @@ header {
         border-radius: 8px;
         font-size: 16px;
         line-height: 19.2px;
-        margin-left: 90px;
+        margin-left: 5%;
       }
       ::placeholder {
         color: #aaaaaa;
@@ -103,8 +103,65 @@ header {
       }
     }
   }
-}
+  //! bottom header bottom header bottom header
+  .bottomHeader {
+    width: 100%;
+    padding: 20px 2%;
 
+    .container {
+      ul {
+        display: flex;
+        justify-content: space-between;
+        width: 73%;
+        list-style-type: none;
+        li {
+          a {
+            text-decoration: none;
+            color: #273142;
+            font-size: 16px;
+            line-height: 27.2px;
+          }
+        }
+      }
+    }
+  }
+}
+main {
+  .salesintro {
+    width: 100%;
+    background-color: #ffe2e0;
+    padding: 25px;
+    .container {
+      flex-wrap: wrap;
+      .textarea {
+        width: 38%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        p {
+          color: #212121;
+          font-size: 16px;
+          font-weight: 400;
+        }
+        button {
+          width: 45%;
+          background-color: #206363;
+          padding: 12px 26px;
+          color: white;
+          font-weight: 500;
+          font-size: 16px;
+          border-radius: 8px;
+          border: none;
+        }
+      }
+      span {
+        color: #df4244;
+        font-size: 24px;
+        font-weight: 500;
+      }
+    }
+  }
+}
 @media (max-width: 992px) {
   header {
     .topHeader {
@@ -122,6 +179,57 @@ header {
           li {
             padding: 0px 3px;
           }
+        }
+      }
+    }
+    .centerHeader {
+      padding: 12px;
+      .container {
+        flex-wrap: wrap;
+        .logo {
+          width: 100px;
+        }
+        .buttons {
+          button {
+            p {
+              display: none !important;
+            }
+          }
+        }
+        input[type="text"] {
+          margin-left: 0px;
+          order: 2;
+          width: 100%;
+          margin-top: 10px;
+        }
+        .icon {
+          width: 20px;
+        }
+      }
+    }
+    .bottomHeader {
+      .container {
+        ul {
+          width: 100%;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 20px;
+        }
+      }
+    }
+  }
+  main {
+    .salesintro {
+      .container {
+        .textarea {
+          width: 100%;
+          button {
+            width: 100%;
+          }
+        }
+        img {
+          width: 280px;
         }
       }
     }

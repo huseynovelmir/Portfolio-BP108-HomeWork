@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerLinks li button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6c757d;
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+  background: transparent;
+}
+.headerLinks li:nth-child(4) button {
+  border: 1px solid #0d6efd;
+  color: #0d6efd;
+}
+
+.introdaction .textarea button {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 56px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #1e9af1;
+  border: none;
+  color: white;
+}
+.introdaction .textarea button img {
+  width: 24px;
+  margin-right: 5px;
+}
+
+header .container {
+  background-color: #212327;
+  width: 100%;
+}
+header .header-top {
+  padding: 15px 180px;
+  color: white;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .header-top .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header .header-top .wrapper .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+header .header-bottom {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 180px;
+}
+header .header-bottom .burger {
+  display: none;
+}
+header .header-bottom .avatar {
+  display: none;
+}
+header .header-bottom ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+header .header-bottom ul li {
+  list-style-type: none;
+}
+header .header-bottom ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+header .header-bottom ul li a b {
+  background: linear-gradient(66.71deg, #b63cf0 18.07%, #7415d7 84.1%);
+  padding: 3px 4px 5px;
+  font-size: 11px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  header .header-top {
+    padding: 14px 2%;
+    justify-content: center;
+  }
+  header .header-top .wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .header-bottom {
+    padding: 25px 2%;
+  }
+  header .header-bottom .burger {
+    display: block;
+  }
+  header .header-bottom .avatar {
+    display: block;
+  }
+  header .header-bottom ul {
+    display: none;
+  }
+}
+body {
+  background-color: #f4f8fb;
+  font-family: "Roboto", sans-serif;
+}
+
+.introdaction {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 180px;
+}
+.introdaction span {
+  color: #1e9af1;
+}
+.introdaction img {
+  width: 430px;
+}
+.introdaction .textarea {
+  width: 45%;
+  display: grid;
+  gap: 30px;
+}
+.introdaction .textarea h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.introdaction .textarea ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.introdaction .textarea ul li img {
+  width: 25px;
+}
+.introdaction .textarea div .guarantee {
+  width: 20px;
+}
+
+.partners {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 180px;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: row;
+  gap: 20px;
+}
+
+@media (max-width: 992px) {
+  .introdaction {
+    flex-direction: column;
+    padding: 50px 2%;
+  }
+  .introdaction img {
+    width: 300px;
+    order: -1;
+  }
+  .introdaction .textarea {
+    width: 100%;
+  }
+  .introdaction .textarea h1 {
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 39px;
+    margin-top: 25px;
+  }
+  .introdaction .textarea ul li {
+    font-size: 16px;
+  }
+  .introdaction .textarea ul li img {
+    width: 16px;
+  }
+  .introdaction .textarea button {
+    width: 100%;
+  }
+  .partners {
+    padding: 50px 2%;
+  }
+}/*# sourceMappingURL=style.css.map */
