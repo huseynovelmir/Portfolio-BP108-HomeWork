@@ -175,16 +175,99 @@ body {
 }
 
 .partners {
+  width: 100%;
+  background-color: #fff;
+}
+.partners .partners-container {
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 100px 180px;
-  background-color: #fff;
   overflow: hidden;
   flex-direction: row;
   gap: 20px;
+}
+
+.learnFaster .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 100px 180px;
+}
+.learnFaster img {
+  width: 480px;
+}
+.learnFaster .mobile {
+  display: none;
+}
+.learnFaster .textarea {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.learnFaster .textarea .different span {
+  color: #1e9af1;
+}
+.learnFaster .textarea .groups span {
+  color: #f45d07;
+}
+.learnFaster .textarea h2 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 40px;
+  color: black;
+  margin-bottom: 20px;
+}
+.learnFaster .textarea h2 span {
+  color: #3dbe52;
+}
+.learnFaster .textarea .card {
+  width: 100%;
+  background-color: #fff;
+  row-gap: 16px;
+  border-radius: 10px;
+  padding: 28px 24px;
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.learnFaster .textarea .card p {
+  color: #828585;
+}
+.learnFaster .textarea .card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.learnFaster .textarea .card .name {
+  padding: 0 20px 16px;
+  border-bottom: 1px solid #c1c4d6;
+  color: #212327;
+  font-weight: 800;
+}
+.learnFaster .textarea .card .card-footer {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #828585;
+  text-align: start;
 }
 
 @media (max-width: 992px) {
@@ -214,7 +297,38 @@ body {
   .introdaction .textarea button {
     width: 100%;
   }
-  .partners {
+  .partners .partners-container {
+    padding: 50px 2%;
+    flex-direction: column;
+    width: 100%;
+  }
+  .learnFaster .wrapper {
+    flex-direction: column;
     padding: 50px 2%;
   }
+  .learnFaster .desktop {
+    display: none;
+  }
+  .learnFaster .mobile {
+    display: block;
+    width: 90%;
+  }
+  .learnFaster .textarea {
+    width: 100%;
+  }
+  .learnFaster .textarea .card {
+    width: 100%;
+  }
+}
+.payment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 180px;
+}
+.payment h1 {
+  color: #212327;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 25px;
 }/*# sourceMappingURL=style.css.map */

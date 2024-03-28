@@ -1,0 +1,10 @@
+.payment {
+  @include flex;
+  padding: 100px 180px;
+  h1 {
+    color: $text-colorDark;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+}
