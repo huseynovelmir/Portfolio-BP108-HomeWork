@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .header-top {
+  width: 100%;
+  background-color: #000;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+}
+header .header-top a {
+  color: #ffffff;
+}
+header .header-bottom {
+  width: 100%;
+  background-color: #fff;
+}
+header .header-bottom .container {
+  padding: 30px 100px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-bottom .container .burger {
+  display: none;
+}
+header .header-bottom .container .search {
+  display: none;
+}
+header .header-bottom .container ul {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-bottom .container ul li {
+  list-style-type: none;
+}
+header .header-bottom .container ul li a {
+  text-decoration: none;
+  color: #000;
+}
+header .header-bottom .container input[type=text] {
+  width: 45%;
+  padding: 12px 14px;
+  border: none;
+  outline: none;
+  background-color: #F2F0F1;
+  border-radius: 30px;
+  background-position: right center;
+}
+header .header-bottom .container .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+header .header-bottom .container .burger-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+@media (max-width: 992px) {
+  header .header-top {
+    font-size: 12px;
+  }
+  header .header-bottom .container {
+    padding: 15px 2%;
+  }
+  header .header-bottom .container .burger {
+    display: block;
+  }
+  header .header-bottom .container .search {
+    display: block;
+  }
+  header .header-bottom .container ul {
+    display: none;
+  }
+  header .header-bottom .container input[type=text] {
+    display: none;
+  }
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #F2F0F1;
+}
+
+.main {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 100px 100px 0px 100px;
+}
+.main .textarea {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+.main .textarea h1 {
+  font-size: 65px;
+  font-family: "Oswald", sans-serif;
+  line-height: 0.9;
+}
+.main .textarea p {
+  color: rgba(0, 0, 0, 0.6156862745);
+}
+.main .textarea button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 56px;
+  border-radius: 62px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #000;
+  border: none;
+  color: #ffffff;
+}
+.main .textarea .res {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+.main .textarea .res .box {
+  border-left: 1px solid rgba(0, 0, 0, 0.4156862745);
+  padding: 0px 15px;
+}
+.main .textarea .res .box span {
+  font-size: 40px;
+  font-weight: 500;
+}
+.main .textarea .res .box p {
+  margin-top: 10px;
+}
+.main .textarea .res .brands {
+  border: none;
+}
+.main img {
+  width: 50%;
+}
+
+.advertising {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+
+@media (max-width: 992px) {
+  .main {
+    flex-wrap: wrap;
+  }
+  .main img {
+    width: 100%;
+  }
+  .main .res {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=style.css.map */
