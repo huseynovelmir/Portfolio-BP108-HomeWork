@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  //   display: flex;
+  //   justify-content: center;
+}
+.projects {
+  width: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 40px;
+  margin: 0 auto;
+
+  h6 {
+    color: #fe7235;
+    font-size: 0.9em;
+    line-height: 1.6;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  h2 {
+    color: #242e42;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 3.157em;
+    line-height: 1.143;
+  }
+  p {
+    font-weight: 300;
+    font-size: 1.333em;
+    line-height: 1.6;
+    color: #5b617c;
+    margin-inline: 150px;
+    margin-top: 20px;
+  }
+  .cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    .card {
+      width: 30%;
+      text-align: start;
+      img {
+        width: 346px;
+        height: 346px;
+      }
+      h4 {
+        font-weight: 500;
+        font-size: 1.777em;
+        line-height: 1.6;
+        color: rgb(36, 46, 66);
+      }
+      p {
+        margin-inline: 0px;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 1.6;
+        margin-top: 10px;
+      }
+      .accordions {
+        margin-top: 10px;
+        p {
+          margin-inline: 30px;
+          margin-bottom: 10px;
+          display: none;
+        }
+        .accordion {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 20px;
+          border-top: 1px solid #eeeeee;
+          transition: 0.5s;
+          i {
+            color: #fea735;
+            transition: 0.5s;
+          }
+          .none {
+            display: none;
+          }
+          .block {
+            display: block;
+          }
+        }
+        .accordion:hover {
+          background-color: dodgerblue;
+          i {
+            color: white;
+          }
+          span {
+            color: white;
+          }
+        }
+      }
+      .accordions:last-child {
+        border-bottom: 1px solid #eeeeee;
+      }
+    }
+  }
+}
