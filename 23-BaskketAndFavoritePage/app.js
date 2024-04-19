@@ -168,7 +168,6 @@ function createElement(elem, page) {
         if (count.innerText <= 9) {
           count.innerText = +count.innerText + 1;
           p.innerText = (elem.price * +count.innerText).toFixed(2);
-          
         }
       });
       minus.addEventListener("click", function () {
@@ -179,7 +178,6 @@ function createElement(elem, page) {
         } else {
           count.innerText = +count.innerText - 1;
           p.innerText = (elem.price / +count.innerText).toFixed(2);
-          
         }
       });
       cntynr.append(minus, count, plus);
