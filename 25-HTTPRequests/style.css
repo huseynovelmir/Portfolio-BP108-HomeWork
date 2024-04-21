@@ -17,6 +17,18 @@ form {
   div {
     width: 45%;
   }
+  .button {
+    width: 100%;
+    button {
+      width: 100%;
+      margin-top: 20px;
+      border: 2px solid white;
+      padding: 5px;
+      border-radius: 5px;
+      background-color: dodgerblue;
+      color: white;
+    }
+  }
 }
 label {
   color: white;
@@ -34,4 +46,34 @@ input {
 }
 .phone {
   width: 100%;
+}
+.cards {
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .card {
+    width: 45%;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    border: 1px solid white;
+    padding: 10px;
+    p {
+      margin: 5px;
+    }
+    button {
+      width: 50%;
+      background-color: brown;
+      color: white;
+      border: 1px solid white;
+      padding: 5px;
+      border-radius: 8px;
+      margin-left: 120px;
+    }
+  }
 }
