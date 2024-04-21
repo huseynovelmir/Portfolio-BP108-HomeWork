@@ -5,10 +5,46 @@ const fetchProducts = async () => {
 };
 
 fetchProducts().then((data) => {
+  const form = document.querySelector(".form");
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+   
+    //! inputs
+    const compname = document.querySelector(".compname").value;
+    // const contName = document.querySelector(".contName").value;
+    // const conttitle = document.querySelector(".conttitle").value;
+    // const addrstreet = document.querySelector(".addrstreet").value;
+    // const addrcity = document.querySelector(".addrcity").value;
+    // const addrregion = document.querySelector(".addrregion").value;
+    // const addrcountry = document.querySelector(".addrcountry").value;
+    // const addrpostalcode = document.querySelector(".addrpostalcode").value;
+    // const addrphone = document.querySelector(".addrphone").value;
+
+    fetch("https://northwind.vercel.app/api/suppliers", {
+      method: "POST ",
+      body: JSON.stringify({
+        companyName: compname,
+        // contactName: contName,
+        // contactTitle: conttitle,
+        // addrstreet: addrstreet.value,
+        // addrcity: addrcity.value,
+        // addrregion: addrregion.value,
+        // addrcountry: addrcountry.value,
+        // addrpostalcode: addrpostalcode.value,
+        // addrphone: addrphone.value,
+      }),
+      headers: {
+        "Content-Type": "application/json;",
+      },
+    });
+  });
+  const forel = document.querySelector("form");
+  console.log(forel);
+
   const cards = document.querySelector(".cards");
   data.map((item) => {
-    console.log(item);
     const card = document.createElement("div");
+
     card.className = "card";
     const companyName = document.createElement("p");
     const contactName = document.createElement("p");
@@ -68,37 +104,5 @@ fetchProducts().then((data) => {
         }
       );
     });
-  });
-});
-const form = document.querySelector("form")
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  //! inputs
-  const compname = document.querySelector(".compname").value;
-  const contName = document.querySelector(".contName").value;
-  const conttitle = document.querySelector(".conttitle").value;
-  const addrstreet = document.querySelector(".addrstreet").value;
-  const addrcity = document.querySelector(".addrcity").value;
-  const addrregion = document.querySelector(".addrregion").value;
-  const addrcountry = document.querySelector(".addrcountry").value;
-  const addrpostalcode = document.querySelector(".addrpostalcode").value;
-  const addrphone = document.querySelector(".addrphone").value;
-
-  fetch("https://northwind.vercel.app/api/suppliers", {
-    method: "POST ",
-    body: JSON.stringify({
-      companyName: compname,
-      contactName: contName,
-      contactTitle: conttitle,
-      // addrstreet: addrstreet.value,
-      // addrcity: addrcity.value,
-      // addrregion: addrregion.value,
-      // addrcountry: addrcountry.value,
-      // addrpostalcode: addrpostalcode.value,
-      // addrphone: addrphone.value,
-    }),
-    headers: {
-      "Content-Type": "application/json;",
-    },
   });
 });
