@@ -8,38 +8,41 @@ fetchProducts().then((data) => {
   const form = document.querySelector(".form");
   form.addEventListener("submit", (e) => {
     e.preventDefault();
-   
-    //! inputs
-    const compname = document.querySelector(".compname").value;
-    // const contName = document.querySelector(".contName").value;
-    // const conttitle = document.querySelector(".conttitle").value;
-    // const addrstreet = document.querySelector(".addrstreet").value;
-    // const addrcity = document.querySelector(".addrcity").value;
-    // const addrregion = document.querySelector(".addrregion").value;
-    // const addrcountry = document.querySelector(".addrcountry").value;
-    // const addrpostalcode = document.querySelector(".addrpostalcode").value;
-    // const addrphone = document.querySelector(".addrphone").value;
 
+    //! inputs
+    let compname = document.querySelector(".compname").value;
+    let contName = document.querySelector(".conttName").value;
+    let conttitle = document.querySelector(".conttitle").value;
+    let addrstreet = document.querySelector(".addrstreet").value;
+    let addrcity = document.querySelector(".addrcity").value;
+    let addrregion = document.querySelector(".addrregion").value;
+    let addrcountry = document.querySelector(".addrcountry").value;
+    let addrpostalcode = document.querySelector(".addrpostalcode").value;
+    let addrphone = document.querySelector(".addrphone").value;
+    console.log(compname);
+
+    let obj = {
+      companyName: compname,
+      contactName: contName,
+      contactTitle: conttitle,
+      address: {
+        city: addrcity,
+        country: addrcountry,
+        phone: addrphone,
+        region: addrregion,
+        postalCode: addrpostalcode,
+        street: addrstreet,
+      },
+    };
     fetch("https://northwind.vercel.app/api/suppliers", {
-      method: "POST ",
-      body: JSON.stringify({
-        companyName: compname,
-        // contactName: contName,
-        // contactTitle: conttitle,
-        // addrstreet: addrstreet.value,
-        // addrcity: addrcity.value,
-        // addrregion: addrregion.value,
-        // addrcountry: addrcountry.value,
-        // addrpostalcode: addrpostalcode.value,
-        // addrphone: addrphone.value,
-      }),
+      method: "Post",
+      body: JSON.stringify(obj),
       headers: {
         "Content-Type": "application/json;",
       },
     });
+    window.reload();
   });
-  const forel = document.querySelector("form");
-  console.log(forel);
 
   const cards = document.querySelector(".cards");
   data.map((item) => {
@@ -57,27 +60,16 @@ fetchProducts().then((data) => {
     const adresssPhone = document.createElement("p");
     const deletebtn = document.createElement("button");
 
-    //! inputs
-    const compname = document.querySelector(".compname");
-    const contName = document.querySelector(".contName");
-    const conttitle = document.querySelector(".conttitle");
-    const addrstreet = document.querySelector(".addrstreet");
-    const addrcity = document.querySelector(".addrcity");
-    const addrregion = document.querySelector(".addrregion");
-    const addrcountry = document.querySelector(".addrcountry");
-    const addrpostalcode = document.querySelector(".addrpostalcode");
-    const addrphone = document.querySelector(".addrphone");
-
     deletebtn.innerText = "Delete";
-    companyName.innerText = item.companyName;
-    contactName.innerText = item.contactName;
-    contactTitle.innerText = item.contactTitle;
-    adressStreet.innerText = item.address.street;
-    adresssCity.innerText = item.address.city;
-    adresssRegion.innerText = item.address.region;
-    adresssCountry.innerText = item.address.country;
-    adresssPostalCode.innerText = item.address.postalCode;
-    adresssPhone.innerText = item.address.phone;
+    companyName.innerText = item?.companyName;
+    contactName.innerText = item?.contactName;
+    contactTitle.innerText = item?.contactTitle;
+    adressStreet.innerText = item.address?.street;
+    adresssCity.innerText = item.address?.city;
+    adresssRegion.innerText = item.address?.region;
+    adresssCountry.innerText = item.address?.country;
+    adresssPostalCode.innerText = item.address?.postalCode;
+    adresssPhone.innerText = item.address?.phone;
 
     card.append(
       companyName,
