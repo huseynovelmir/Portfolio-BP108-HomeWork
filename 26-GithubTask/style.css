@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Space Mono", monospace;
+  transition: 0.4s;
+}
+/*! darkMode darkMode darkMode darkMode darkMode darkMode darkMode darkMode darkMode darkMode  */
+.darkMode {
+  background-color: #141d2f;
+  color: white;
+  header {
+    button {
+      color: white;
+      i {
+        fill: white;
+      }
+    }
+  }
+  .form {
+    background-color: #1d2a47;
+    box-shadow: none;
+    input {
+      color: white;
+    }
+    ::placeholder {
+      color: white;
+    }
+  }
+  .user {
+    background-color: #1d2a47;
+    box-shadow: none;
+  }
+  .stats {
+    background-color: #141d2f;
+    li {
+      h4 {
+        color: white;
+      }
+    }
+  }
+  .userLinks {
+    color: white;
+    a {
+      color: white;
+    }
+    svg {
+      fill: white;
+    }
+  }
+}
+
+/*! lightMode  lightMode lightMode lightMode lightMode lightMode lightMode lightMode  */
+.lightMode {
+  background-color: #f6f8ff;
+  color: #1e2a47;
+  header {
+    button {
+      color: #1e2a47;
+      i {
+        fill: #1e2a47;
+      }
+    }
+  }
+  .form {
+    background-color: white;
+    box-shadow: 0 16px 30px -10px rgba(70, 96, 187, 0.2);
+    input {
+      color: black;
+    }
+    ::placeholder {
+      color: #222731;
+    }
+  }
+
+  .user {
+    background-color: white;
+    box-shadow: 0 16px 30px -10px rgba(70, 96, 187, 0.2);
+  }
+  .stats {
+    background-color: #f6f8ff;
+    li {
+      h4 {
+        color: #4c6a9b;
+      }
+    }
+  }
+  .userLinks {
+    color: #4b6a9b;
+    a {
+      color: #4b6a9b;
+    }
+    svg {
+      fill: #4b6a9b;
+    }
+  }
+}
+
+.container {
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 100px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    display: flex;
+    align-items: center;
+    padding: 2.5px;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    border: none;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    i {
+      width: 15px;
+      margin-left: 10px;
+    }
+  }
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 36px 0 24px 0;
+  border-radius: 15px;
+  padding: 10px;
+  width: 100%;
+  gap: 20px;
+  svg {
+    width: 30px;
+    fill: #0279ff;
+    margin-left: 20px;
+  }
+  input {
+    width: 80%;
+    padding: 10px;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 1.125rem;
+    line-height: 25px;
+    padding: 6px 0;
+    margin-right: 20px;
+    flex-grow: 1;
+    min-width: 0;
+  }
+
+  button {
+    background-color: #0279ff;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 13px 24px;
+    font-weight: 700;
+    border: none;
+  }
+}
+.moon {
+  display: none;
+}
+
+.user {
+  width: 100%;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 15px;
+  img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  .textarea {
+    width: 75%;
+    .nameAndJoin {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+    .username {
+      color: #0279ff;
+    }
+    h3 {
+      font-size: 0.9rem;
+    }
+    .userBio {
+      margin: 30px 0px;
+    }
+    .stats {
+      width: 100%;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 16px 32px;
+      border-radius: 10px;
+      margin-bottom: 36px;
+      list-style-type: none;
+      li {
+        h4 {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+  .userLinks {
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    align-items: flex-start;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 18px;
+    row-gap: 18px;
+    flex-wrap: wrap;
+    gap: 20px;
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+      a {
+        text-decoration: none;
+      }
+    }
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
