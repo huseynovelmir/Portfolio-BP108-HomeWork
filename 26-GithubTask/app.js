@@ -1,3 +1,12 @@
+//! Localstorage da məlumat qaldığı üçün dark, light mode'un işlədiyini düşünürdüm.
+//! Datanı silib yoxladıqda "https://youtube.com/shorts/Bb0r5wQeD7U?feature=shared" belə oldum.
+//! Ona görədə bu kod blokunu əlavə etdim ki əgər localstorage da məlumat yoxdusa əlavə eləsin.
+if (localStorage.getItem("mode") == null) {
+  localStorage.setItem("mode", "darkMode");
+  localStorage.setItem("title", "LIGHT");
+  localStorage.setItem("icon", "fa-regular fa-sun");
+}
+
 const button = document.querySelector(".darkLightMode");
 const body = document.querySelector("body");
 const sun = document.querySelector(".sun");
@@ -84,7 +93,8 @@ from.addEventListener("submit", (e) => {
       site.removeAttribute("href");
       site.style.color = "#9a96a2";
     } else {
-      site.innerText = data.blog;
+      //! Burda https ekrana çıxanda pis görüntü verir deyə slice etdim ki görsənməsin
+      site.innerText = data.blog.slice(8);
       site.value = data.blog;
     }
 

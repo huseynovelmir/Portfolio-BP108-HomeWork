@@ -250,6 +250,10 @@ header {
       .userLinks {
         grid-template-columns: none;
         grid-template-rows: none;
+        /*!Qurban müəllimin Youtube linki çox yekə imiş 🤣 */
+        div {
+          font-size: 13px;
+        }
       }
     }
     .form {
