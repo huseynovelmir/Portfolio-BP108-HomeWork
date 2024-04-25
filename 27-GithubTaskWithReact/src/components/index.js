@@ -1,5 +1,5 @@
 import Form from "./Form/Form";
-import Main from "./Main";
+import Main from "./Main/Main";
 import Header from "./Header/Header";
 import UserCard from "./UserCard/UserCard";
 import Stats from "./UserCard/Stats/Stats";

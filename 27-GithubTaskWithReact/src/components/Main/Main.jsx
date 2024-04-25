@@ -1,6 +1,6 @@
 import React from "react";
-import Form from "./Form/Form";
-import { UserCard } from "./index";
+import Form from "../Form/Form";
+import { UserCard } from "../index";
 
 function Main() {
   return (
