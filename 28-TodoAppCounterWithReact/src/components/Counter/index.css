@@ -1,0 +1,47 @@
+.counterSection {
+  padding: 50px;
+  width: 100%;
+  background-color: #eeeeee;
+  text-align: center;
+  h1 {
+    margin-bottom: 50px;
+  }
+}
+.counter {
+  width: 50%;
+  padding: 50px 20px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 30px;
+}
+.buttonsAndInput {
+  width: 40%;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  input {
+    width: 100%;
+    padding: 7px 12px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #eeeeee;
+    cursor: pointer;
+  }
+  button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(10, 11, 53);
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+}
