@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone SE",
+      "price": "429$",
+      "imageSrc": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-se-finish-select-202207-product-red?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VEhreGxMWU8vckorVEJ3dVU2RjJZVVNCSGJEVklzV3dtVWxKME5oOWltbkt6V25EMGNydWRwby94NjVGeDRTU2d2S3NaRzcrU0dmYjNHTUFiMnlsWFRocXAvNjVVaCtjTTZGTUNzOU8wNkdLQWh3KzZNSFRDV29CejdieEVBRGo=&traceId=1",
+      "color": "(PRODUCT)RED"
+    },
+    {
+      "id": "2",
+      "name": "iPhone 15 pro",
+      "price": "999$",
+      "imageSrc": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-model-unselect-gallery-2-202309_GEO_US?wid=5120&hei=2880&fmt=webp&qlt=70&.v=UW1GeTRObi9UaVF4S3FUNERNMWVhZ2FRQXQ2R0JQTk5udUZxTkR3ZVlpS0o0bnJBQlJYRTdzdWVwMVBVb2c4L0lYUWYrQkRLNitCbE9QRVRqNHErMkE3b3pFWnhZZ2g0M0pRR0pEdHVSRUcyRlVVa0JFTnZqc0lHcUFYQnFjNXpkc3NlSXRDWlQ3WVl5dEd4ZUF1dDFRPT0=&traceId=1",
+      "color": "Silver"
+    },
+    {
+      "id": "3",
+      "name": "iPhone 13",
+      "price": "599$",
+      "imageSrc": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-13-finish-select-202207-midnight?wid=5120&hei=2880&fmt=webp&qlt=70&.v=WGQwVDZoTWdLODlMWERUbVY5M013bkE5c2FxTFBHYVd1Uk1sVVFiM0hqMXJnV2xBenVhdk9GcDNOWlRHZmVzbkFLaEM4VGVnOFFZVWtXR1EwaEFhTXdCYmgxb2grMGhKczBsMWtoU05FbkJwb2NCM2VuanZDSmd2RENJSzMrL0Y=&traceId=1",
+      "color": "Midnight"
+    },
+    {
+      "id": "4",
+      "name": "iPhone 14 Plus",
+      "price": "799$",
+      "imageSrc": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-14-finish-select-202209-6-7inch_AV1?wid=5120&hei=2880&fmt=webp&qlt=70&.v=bjlYUjk1NXN2Uy9CTWFMaXBneUF0bEthL1VsNXgveGUwQ1JqNzA0ZHArblI3L1M0QlNtaE9Db2U5UFlybWQ0Smd2S3NaRzcrU0dmYjNHTUFiMnlsWFRocXAvNjVVaCtjTTZGTUNzOU8wNkVsN3k1cjU4YUthTkxlZVU4WlBmMUg=&traceId=1",
+      "color": "Blue"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "needforelmir",
+      "password": "pas123"
+    },
+    {
+      "id": "d92de4e9-d2fd-48f0-99ce-e47a7e10b7a4",
+      "username": "huseynovelmir",
+      "password": "123"
+    },
+    {
+      "id": "b2a7",
+      "username": "elmir",
+      "password": "123"
+    },
+    {
+      "id": "275a",
+      "username": "Qurban",
+      "password": "123"
+    }
+  ]
+}
