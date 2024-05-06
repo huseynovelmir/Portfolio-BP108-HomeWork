@@ -25,7 +25,6 @@ const Products = () => {
               key={product.id}
               className="group relative"
               onClick={(e) => {
-                e.stopPropagation();
                 navigate(`/detailpage/${product.id}`);
               }}
             >
@@ -52,6 +51,8 @@ const Products = () => {
               <button
                 className="bg-gray-700 hover:bg-gray-500 text-white font-bold py-1 px-2 rounded mt-2"
                 onClick={(e) => {
+                  //! Dərsin əvvəlində burda nəsə dəyişdim məncə amma
+                  //!  yadımda deyil nə, təzə taskı push edəndə commit kimi gedəcək yenilik.
                   e.stopPropagation();
                   let arr = product.filter((el) => el.id != product.id);
                   setProducts(arr);
