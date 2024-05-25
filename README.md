@@ -39,3 +39,9 @@ This portfolio is a continuous work in progress. As I grow and evolve as a devel
 ---
 
 Thank you for visiting my portfolio! I hope you find it insightful and engaging. Feel free to explore my projects and get in touch if you have any questions or feedback.
+
+- **Email**: huseynovelmir789@gmail.com
+- **LinkedIn**: [linkedin.com/in/huseynovelmir](https://www.linkedin.com/in/huseynovelmir/)
+- **Instagram**: [instagram.com/needforelmir](https://www.instagram.com/needforelmir/)
+
+
