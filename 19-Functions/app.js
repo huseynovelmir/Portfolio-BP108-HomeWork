@@ -403,13 +403,26 @@ let students = [
 //   return first + " " + second;
 // }
 // console.log(numbers(23));
+//* update
+// function nums(a) {
+//   let newNum = a.toString().split("");
+//   return newNum[0] + " " + newNum[1];
+// }
+// console.log(nums(12));
 // !Üçrəqəmli ədədi orta rəqəmi olmadan yazmalı.
 // function numbers(a) {
 //   let first = parseInt(a / 100);
 //   let second = a % 10;
 //   return first + " " + second;
 // }
+
 // console.log(numbers(234));
+//* update
+// function nums(a) {
+//   let newNum = a.toString().split("");
+//   return newNum[0] + newNum[2];
+// }
+// console.log(nums(123));
 // !n məktəbli k almanı bərabər bölüşdürdülər, bölünməyən qalanlar sabətdə qalır. Səbətdə neçə alma qalacaq?
 // function apples(apple, students) {
 //   return parseInt(apple % students);
