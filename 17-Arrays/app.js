@@ -17,14 +17,14 @@
 // }
 // console.log(odd * even);
 // !Task3
-let length = 4;
-let arr = [-1, 1, 5, 2, 3, -4];
-for (let i = 0; i < length; i++) {
-  if (arr[i] > 0) {
-    arr[i] += 2;
-  }
-}
-console.log(arr);
+// let length = 4;
+// let arr = [-1, 1, 5, 2, 3, -4];
+// for (let i = 0; i < length; i++) {
+//   if (arr[i] > 0) {
+//     arr[i] += 2;
+//   }
+// }
+// console.log(arr);
 // !Task4
 // let length = 5;
 // let arr = [1, 5, 2, 6, 3];
