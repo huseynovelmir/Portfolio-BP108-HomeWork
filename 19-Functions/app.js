@@ -349,11 +349,11 @@ let students = [
 // }
 // console.log(strings("salam"));
 // !11- Parametr olaraq bir aaray və bir dəyişən qəbul edən, geriyə bu dəyişəni arrayın 3-cü elementi edib qaytaran funksiya yazın
-// function arrays(arr, param) {
-//   arr.splice(2, 0, param);
-//   return arr;
-// }
-// console.log(arrays([1, 2, 4, 5], 3));
+function arrays(arr, param) {
+  arr.splice(2, 0, param);
+  return arr;
+}
+console.log(arrays([1, 2, 4, 5], 3));
 // !12- Parametr olaraq rəqəmlərdən ibarət array qəbul edən və geriyə ancaq müsbət ədədlərdən ibarət array qaytaran funksiya yazın.
 // let newArr = [];
 // function arrays(arr) {
@@ -365,6 +365,12 @@ let students = [
 //   return newArr;
 // }
 // console.log(arrays([1, 2, 3, 4, 5]));
+//* update
+// function numbers(arr) {
+//   return arr.filter((item) => item > 0);
+// }
+// console.log(numbers([1, -2, 3, -4, 5, 6, -4, 7, 8, 9, -10]));
+
 // !13- Parametr olaraq sözlərdən ibarət array qəbul edən və ancaq uzunluğu 5 dən çox olan sözləri qaytaran funksiya yazın.
 // let newArr = [];
 // function arrays(arr) {

@@ -426,3 +426,97 @@ for (let i = 0; i < students.length; i++) {
 //   loginDetail,
 // }));
 // console.log(newArr);
+// !Task 16 Müəllimlərin adlarından sonra müəllim sözünü əlavə edin. String metod istifadə edin
+// students.map((student) => {
+//   student.teacher.map((teacher) => {
+//     console.log(teacher.name.concat(" Müəllim"));
+//   });
+// });
+// ! Task 17 Hamının şifrəsinin əvvəlinə 3 ədəd boşluq əlavə edin. String metod istifadə edin
+// students.forEach((student) => {
+//   let newPassword = student.loginDetail.password.padStart(
+//     student.loginDetail.password.length + 3,
+//     " "
+//   );
+//   console.log(newPassword);
+// });
+// !Task 18 Hamının şifrəsinin ilk 4 simvolu görsənsin yerdə qalanlar "*" ilə əvəz olunsun. String metod istifadə edin
+// students.forEach((student) => {
+//   let newPassword = student.loginDetail.password;
+//   const visiblePart = newPassword.substring(0, 4);
+//   const hiddenPart = "*".repeat(newPassword.length - 4);
+//   let result = visiblePart + hiddenPart;
+//   console.log(result);
+// });
+
+// !Task 19 Hamının soyadının uzunluğu adının uzunluğu qədər olsun. String metod istifadə edin
+// students.forEach((student) => {
+//   let studentSurname = student.surname.slice(0, student.name.length);
+//   console.log(student.name, studentSurname);
+// });
+// !TAsk 20  Bütün tələbələrin yaşlarının toplamı nə qədərdir
+// let result = 0;
+// students.forEach((student) => {
+//   result += student.age;
+// });
+// console.log(result);
+
+// !Task 21 Bütün tələbələrin cəmi bal ortalaması nə qədərdir
+// let result = 0;
+// students.forEach((student) => {
+//   result += student.avgPoint;
+// });
+// console.log(Math.ceil(result / students.length));
+//  !Task 22  "book" həvəsini olan tələbələrin siyahısını çap edin
+// students.map((student) => {
+//   if (student.hobbies.includes("book")) {
+//     console.log(student.name);
+//   }
+// });
+// !Task 23 Tələbələrin yaş ortalaması nədir?
+// let result = 0;
+// students.map((student) => {
+//   result += student.age;
+// });
+// console.log(Math.ceil(result / students.length));
+// !Task 24 Hər bir tələbə üçün cinsiyət və yaşı göstərən bir obyekt yaradin
+
+// let arr = [];
+// students.map((student) => {
+//   let obj = {
+//     name: student.name,
+//     age: student.age,
+//   };
+//   arr.push(obj);
+// });
+// console.log(arr);
+
+// !Task 25 Bütün tələbələrin ad və soyadlarının uzunluqlarının cəmi hansıdır
+// let nameLength = 0;
+// let surnameLength = 0;
+// students.map((student) => {
+//   nameLength += student.name.length;
+//   surnameLength += student.surname.length;
+// });
+// console.log(nameLength + surnameLength);
+// !Task 26 Tələbələrin adlarını tərsinə çevirin.
+
+// students.map((student) => {
+//   console.log(student.name.split("").reverse().join(""));
+// });
+
+// !Task 27 "gamig" həvəsi olan tələbələrin array-ini yaradın
+// let studentArr = [];
+// students.map((student) => {
+//   if (student.hobbies.includes("gaming")) {
+//     studentArr.push(student.name);
+//   }
+// });
+// console.log(studentArr);
+
+// !Task 28 Bütün tələbələrin hobbiləri olan array yaradın?
+// let arr = [];
+// students.map((student) => {
+//   arr.push(student.hobbies);
+// });
+// console.log(arr);
