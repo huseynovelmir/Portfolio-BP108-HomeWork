@@ -328,6 +328,11 @@ let students = [
 //   return sum;
 // }
 // console.log(arrays(["salam", "nec", 3]));
+// *update
+// function nums(arr) {
+//   return arr.reduce((acc, item) => (typeof item === "number" ? acc + item : acc),0);
+// }
+// console.log(nums(["salam", "necesen", 3, 4, 5, "hello"]));
 // !9- Parametr olaraq qəbul edilən array-in elementlərini tərsinə düzən funksiya yazın.
 // function arrays(arr) {
 //   return arr.reverse();
@@ -349,11 +354,11 @@ let students = [
 // }
 // console.log(strings("salam"));
 // !11- Parametr olaraq bir aaray və bir dəyişən qəbul edən, geriyə bu dəyişəni arrayın 3-cü elementi edib qaytaran funksiya yazın
-function arrays(arr, param) {
-  arr.splice(2, 0, param);
-  return arr;
-}
-console.log(arrays([1, 2, 4, 5], 3));
+// function arrays(arr, param) {
+//   arr.splice(2,0, param);
+//   return arr;
+// }
+// console.log(arrays([1, 2, 4, 5], 3));
 // !12- Parametr olaraq rəqəmlərdən ibarət array qəbul edən və geriyə ancaq müsbət ədədlərdən ibarət array qaytaran funksiya yazın.
 // let newArr = [];
 // function arrays(arr) {
@@ -383,6 +388,13 @@ console.log(arrays([1, 2, 4, 5], 3));
 //   return newArr;
 // }
 // console.log(arrays(["salam", "necesen"]));
+//* update
+// function strings(arr) {
+//   return arr.filter((item) => item.length > 5);
+// }
+// console.log(
+//   strings(["salam", "code academy", "xoxo", "Baku Azerbaijan", "code"])
+// );
 
 //! Proqram ikirəqəmli ədədi oxuyur və ədədin hər bir rəqəmini arada boşluq olmaqla ekrana verir.
 // function numbers(a) {
