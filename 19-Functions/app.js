@@ -365,6 +365,7 @@ console.log(arrays([1, 2, 4, 5], 3));
 //   return newArr;
 // }
 // console.log(arrays([1, 2, 3, 4, 5]));
+
 //* update
 // function numbers(arr) {
 //   return arr.filter((item) => item > 0);
