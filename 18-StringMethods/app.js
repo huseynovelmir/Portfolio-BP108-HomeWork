@@ -259,9 +259,9 @@ let students = [
 // - Bütün tələbələrə təqaüdlərinin dollar ilə görünməsini təmin edin
 // - Müəllimlərin baş hərflərini böyük hərflə yazın
 // - Şifrəsində rəqəm olmayan tələbələri tapın
-// - Qızların arasında id-si 3 olan müəllimlərin adını deyin
+// - İd-si 3 olan müəllimlərin adını deyin
 // - Tələbələrin adlarını və müəllim saylarını çapa verin
-// - Tələbələrin adlarını username və şifrələrindən ibarət yeni array yaradın [{name:qurban,username:qurban123,password:qqq123}]
+// - Tələbələrin adlarını username və şifrələrindən ibarət yeni array yaradın [{name:elmir,username:huseynovelmir,password:elmir123}]
 // - Müəllimlərin adlarından sonra müəllim sözünü əlavə edin. String metod istifadə edin
 // - Hamının şifrəsinin əvvəlinə 3 ədəd boşluq əlavə edin. String metod istifadə edin
 // - Hamının şifrəsinin ilk 4 simvolu görsənsin yerdə qalanlar "*" ilə əvəz olunsun. String metod istifadə edin
@@ -270,11 +270,17 @@ let students = [
 // - Bütün tələbələrin cəmi bal ortalaması nə qədərdir
 // - "book" həvəsini olan tələbələrin siyahısını çap edin
 // - Tələbələrin yaş ortalaması nədir?
-// - Hər bir tələbə üçün cinsiyət və yaşı göstərən bir obyekt yaradin
-// - Bütün tələbələrin ad və soyadlarının uzunluqlarının cəmi hansıdır
 // - Tələbələrin adlarını tərsinə çevirin.
 // - "gamig" həvəsi olan tələbələrin array-ini yaradın
 // - Bütün tələbələrin hobbiləri olan array yaradın?
+// - Orta balı 80-dən yüksək olan tələbələri və müəllim adlarını çappa verin tapın.
+// - Gf/Bf olan tələbələri tapın.
+// - Müəllimlərindən biri "Süleyman" olan tələbələri tapın.
+// - Kitab oxumağı hobbi kimi olan tələbələri tapın.
+// - Maaşı 120 AZN-dən çox olan tələbələri tapın.
+// - İmtahandan keçməyən tələbələri tapın.
+// - Tələbə olub maaş alan tələbələri tapın.
+// - Şifrəsi 8 simvoldan uzun olan tələbələri tapın.
 
 // !- Bütün elementləri konsola yazın
 

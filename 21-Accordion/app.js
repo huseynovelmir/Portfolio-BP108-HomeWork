@@ -1,5 +1,6 @@
 const acc = document.getElementsByClassName("accordion");
 let arr = Array.from(acc);
+
 arr.forEach((el) => {
   el.addEventListener("click", myfunc);
   function myfunc() {
